@@ -1,0 +1,25 @@
+	@if($title == 'Transportation')
+							<li class="active">
+								<a href="/transportation">Transportation </a>
+								
+							</li>
+							@else
+							<li>
+								<a href="/transportation">Transportation </a>
+								
+							</li>
+							@endif
+
+
+
+
+
+								@if($title == 'Dashboard')
+							<li class="active">
+								<a href="{{route('obs.dashboard')}}">Dashboard</a>
+							</li>
+							@else
+							<li>
+								<a href="{{route('obs.dashboard')}}">Dashboard</a>
+							</li>
+							@endif
